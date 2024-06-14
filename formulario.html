@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleFormulario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <title>Formulario de instalacion</title>
+</head>
+<body>
+    <header class=".container">
+        <nav>
+            <ul class="no-margin">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#top">Nosotros</a></li>
+                <li><a href="formulario.html">Pedido Instalacion</a></li>
+                <li><a href="tecnicoInicio.html">Tecnico</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="banner"> 
+        <img src="img/banner.jpeg" alt="">
+    </div>
+
+    <main>
+        <div class="form-container">
+            <form id="formulario">
+              <h2>Solicitud de Instalación</h2>
+              
+              <label for="fecha-solicitud">Fecha de la Solicitud:</label>
+              <input type="date" id="fecha-solicitud" name="fecha-solicitud" required>
+        
+              <label for="direccion">Dirección:</label>
+              <input type="text" id="direccion" name="direccion" required>
+        
+              <label for="tipo-residencia">Tipo de Residencia:</label>
+              <select id="tipo-residencia" name="tipo-residencia" required>
+                <option value="">Seleccione una opción</option>
+                <option value="casa">Casa</option>
+                <option value="departamento">Departamento</option>
+                <option value="comercio">Comercio</option>
+                <option value="otro">Otro</option>
+              </select>
+        
+              <label for="plan">Plan:</label>
+              <select id="plan" name="plan" required>
+                <option value="">Seleccione una opción</option>
+                <option value="300Mb">300Mb</option>
+                <option value="500Mb">500Mb</option>
+                <option value="700Mb">700Mb</option>
+              </select>
+        
+              <label for="horario">Horario Preferido para la Instalación:</label>
+              <select id="horario" name="horario" required>
+                <option value="">Seleccione una opción</option>
+                <option value="mañana">Mañana</option>
+                <option value="tarde">Tarde</option>
+              </select>
+        
+              <h2>Datos Personales</h2>
+        
+              <label for="dni">DNI:</label>
+              <input type="text" id="dni" name="dni" required>
+        
+              <label for="nombre">Nombre:</label>
+              <input type="text" id="nombre" name="nombre" required>
+        
+              <label for="apellido">Apellido:</label>
+              <input type="text" id="apellido" name="apellido" required>
+        
+              <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+              <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" required>
+        
+              <label for="telefono">Teléfono:</label>
+              <input type="tel" id="telefono" name="telefono" required>
+        
+              <button type="button" onclick="validar_datos()" >Enviar Solicitud</button>
+            </form>
+            <p id="alerta"></p>
+          </div>
+    </main>
+
+    <footer class="no-margin, no-padding">
+        <div class="contacto">
+            <h4>Contacto</h4>
+            <p>Telefono:265-242-424</p>
+            <p>Correo:tansfer@transfer.com</p>
+            <p>Direccion: Av. Siempre Viva 123</p>
+            <p>&copy; 2024 Arias Facundo Daniel. Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <script src="js/script_formulario.js"></script>
+</body>
+</html>

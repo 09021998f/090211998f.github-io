@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleHome_tecnico.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Pagina del Tecnico</title>
+</head>
+<body>
+    <header class=".container">
+        <div class="contenedor_header">
+            <img class="img_header" src="img/image.png" alt="">
+            <h1 class="no-margin">TransferWise</h1>
+        </div>
+        
+        <nav>
+            <ul class="no-padding, no-margin">
+                <li><a href="">Registrar Instalacion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Bienvenido</h1>
+        <div class="contenedor_main">
+            <aside class="contenedor_tabla">
+                <h3>Lista de solicitudes</h3>
+                <table>
+                    <h5>Pendientes</h5>
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Direccion</th>
+                            <th>Residencia</th>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>12/12/2020</td>
+                            <td>Av. Siempre Viva 123</td>
+                            <td>Santa Lucia</td>
+                            <td>Facundo</td>
+                            <td>Arias</td>
+                        </tr>
+                        <tr>
+                            <td>20/6/2020</td>
+                            <td>Av. Libertador 1411 E</td>
+                            <td>Rawson</td>
+                            <td>Carlos</td>
+                            <td>Rodriguez</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <h5>Realizadas con Exito</h5>
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>Direccion</th>
+                            <th>Residencia</th>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>13/6/2021</td>
+                            <td>Av. Siempre Viva 123</td>
+                            <td>Santa Lucia</td>
+                            <td>Facundo</td>
+                            <td>Arias</td>
+                        </tr>
+                        <tr>
+                            <td>20/6/2020</td>
+                            <td>Av. Libertador 1411 E</td>
+                            <td>Rawson</td>
+                            <td>Carlos</td>
+                            <td>Rodriguez</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </aside>
+           
+                
+            <div class="contenedor_form">
+                <form action="/submit-installation-details" method="post">
+                    <h3>Registro de instalacion</h3>
+                    <h4>Detalles de Instalación Realizada</h4>
+                    
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" id="fecha" name="fecha" required>
+              
+                    <label for="hora">Hora:</label>
+                    <input type="time" id="hora" name="hora" required>
+              
+                    <label for="observaciones">Observaciones:</label>
+                    <textarea id="observaciones" name="observaciones" rows="4" required></textarea>
+              
+                    <label for="tecnico">Técnico:</label>
+                    <input type="text" id="tecnico" name="tecnico" required>
+              
+                    <label for="solicitud-id">ID de Solicitud de Instalación:</label>
+                    <input type="text" id="solicitud-id" name="solicitud-id" required>
+              
+                    <button type="submit">Enviar Detalles</button>
+                </form>
+            </div>
+                
+            
+
+        </div>
+    </main>
+
+</body>
+</html>

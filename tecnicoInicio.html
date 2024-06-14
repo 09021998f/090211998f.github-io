@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleTecnico.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Inicio de sesion</title>
+</head>
+<body>
+    <header class=".container">
+        <div class="contenedor_header">
+            <img class="img_header" src="img/image.png" alt="">
+            <h1 class="no-margin">TransferWise</h1>
+        </div>
+        
+        <nav>
+            <ul class="no-padding, no-margin">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="">Nosotros</a></li>
+                <li><a href="formulario.html">Solicitar Instalacion</a></li>
+                <li><a href="tecnicoInicio.html">Tecnico</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="inicio_sesion">
+            
+            <form >
+                <h3>Inicio de Sesión</h3>
+                
+                <label for="username">Nombre de Usuario:</label>
+                <input type="text" id="username" name="username" required>
+          
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+          
+                <button type="button", onclick="validar_datos_inicio()">Iniciar Sesión</button>
+              </form>
+              <p id="alert"></p>
+        </div>
+    
+    </main>
+
+    <script src="js/script_formulario.js"></script>
+</body>
+</html>
