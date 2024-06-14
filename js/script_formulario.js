@@ -34,12 +34,13 @@ function validar_datos_inicio(){
     let alert = document.getElementById('alert');
     console.log(user, pass)
     if (USUARIO.includes(user) && PASSWORD.includes(pass)){
-        window.location.href = '../home_tecnico.html';
+        window.location.href = 'https://09021998f.github.io/Integrador-final-IDW/home_tecnico.html';
     } else{
         alert.textContent = 'Usuario o Contraseña incorrectos.';
     }
 
 }
+// '../home_tecnico.html'
 
 
 
