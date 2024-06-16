@@ -162,6 +162,8 @@ footer{
     font-size: 0.8rem;
 }
 
+
+/* Query Tablet */
 @media (max-width:768px) {
     .banner img{
         width: 100%;
@@ -206,7 +208,7 @@ button {
         width: 100%;
     }
     .form-container h2{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     label{
