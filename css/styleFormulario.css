@@ -205,9 +205,10 @@ button {
     .banner img{
         width: 100%;
     }
-    .form-container{
-        font-size: 1rem;
+    .form-container h2{
+        font-size: 1.2rem;
     }
+
     label{
         font-size: 1rem;
     }
@@ -216,3 +217,4 @@ button {
     }
 
 }
+
