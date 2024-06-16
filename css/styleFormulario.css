@@ -198,7 +198,7 @@ button {
 
 
 /* Query Celular */
-@media (max-width:400px) {
+@media (max-width:600px) {
     main{
         padding: 1.5rem;
     }
