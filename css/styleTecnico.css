@@ -136,8 +136,6 @@ button:hover {
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
     max-width: 400px;
     width: 100%;
-    
-
 }
 
 .inicio_sesion p{
@@ -160,9 +158,9 @@ button:hover {
         padding: 2rem;
     }
 
-    .img_header {
+    /* .img_header {
         padding: 0;
-    }
+    } */
 
     .contenedor_header h1 {
         font-size: 3rem;
