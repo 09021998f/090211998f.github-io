@@ -35,7 +35,7 @@ h1{
 
 h2{
     font-size: 4rem;
-    font-weight: 600;
+    
 }
 
 h3{
@@ -77,6 +77,8 @@ header{
     padding-right: 3rem;
     gap: 2rem;
 }
+
+
 
 .img_header{
     width:200px ;
@@ -132,6 +134,11 @@ main{
     color: #555555;
 }
 
+.promo h2{
+    color: #333333;
+    font-weight: 800;
+}
+
 .promo a{
     font-size: 1rem;
     font-weight: 600;
@@ -150,6 +157,8 @@ main{
 .promo a{
     background-color: #1557b0; 
 }
+
+
 
 .contenedor_main a:hover {
     color: #030303; /* Color on hover */
@@ -179,6 +188,10 @@ footer{
 /* Query Tablet */
 @media (max-width:965px) {
 
+    body{
+        font-size: 1.4rem;
+    }
+
     /* Pagina principal */
     .contenedor_header{
         display: grid;
@@ -194,6 +207,8 @@ footer{
     .contenedor_main{
         display: block;
         align-items: center;
+        margin: 10%;
+        padding: 0 15% 0 15%;
     }
     .promo{
         margin-top: 2rem;
@@ -220,10 +235,22 @@ footer{
     .contenedor_header h1{
         font-size: 3rem;
     }
+
+    .contenedor_main{
+        padding: 0;
+    }
+
     nav ul{
         display: block; /*Activo block*/
         text-align: center; /*Alineo los textos al centro*/
         padding: 0;
+    }
+    .promo h2{
+        font-size: 3rem;
+    }
+
+    footer{
+        text-align: center;
     }
 
 }
