@@ -199,6 +199,9 @@ button {
 
 /* Query Celular */
 @media (max-width:400px) {
+    main{
+        padding: 1.5rem;
+    }
     nav ul{
         display: block; /*Activo block*/
         text-align: center; /*Alineo los textos al centro*/
