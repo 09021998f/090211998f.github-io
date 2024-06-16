@@ -206,8 +206,44 @@ footer{
     }
 }
 
-@media (max-width:580px){
+@media (max-width:400px){
+    .contenedor_header {
+        flex-direction: column;
+        text-align: center;
+        padding: 0;
+    }
+
+    .contenedor_header {
+        padding: 1rem 2.5rem;
+        gap: 1rem;
+    }
     
+    .img_header {
+        margin: 0 auto;
+    }
+
+    .contenedor_header h1 {
+        font-size: 2.5rem;
+    }
+
+    nav ul {
+        text-align: center;
+        padding: 0;
+    }
+    .contenedor_main{
+        margin: 1rem;
+        
+    }
+    main h1 {
+        text-align: center;
+    }
+    .contenedor_tabla{
+        padding: 0;
+    }
+  
+
+
+
     
     .barra {
         margin: 0 0 1rem;
