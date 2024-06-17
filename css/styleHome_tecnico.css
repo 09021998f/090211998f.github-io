@@ -105,12 +105,9 @@ main{
 
 
 .reloj{
-
     margin: 0;
     border: 2px solid #ccc;
-    border-radius: 5%;
-    
-    
+    border-radius: 10px;
 }
 
 #time{
