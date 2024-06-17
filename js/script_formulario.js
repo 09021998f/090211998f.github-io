@@ -42,23 +42,3 @@ function validar_datos_inicio(){
 }
 
 // '../home_tecnico.html' para local
-
-
-
-// document.getElementById('formulario').addEventListener('submit', function (even) {
-//     const NOMBRES = ['carlos', 'susana']
-//     const DNI = ['123', '321']
-    
-//     let name = document.getElementById('dni').value;
-//     let dni = document.getElementById('nombre').value;
-//     let alerta = document.getElementById('alerta');
-
-
-//     if (NOMBRES.includes(name) && DNI.includes(dni)){
-//         alerta.textContent = '${name} Usted ya a solicitado su plan';
-//     } else{
-//         alerta.textContent = 'Solicitud realizada con exito!';
-//     }
-
-
-// })

@@ -1,8 +1,4 @@
 
-*, *:before, *:after{
-    box-sizing: inherit;
-}
-
 body {
     font-family: 'open sans', sans-serif;
     font-size: 1.6rem;
@@ -14,13 +10,6 @@ body {
 }
 
 
-.container {
-    max-width: 120rem;
-    width: 90%;
-    margin: 0 auto;
-    
-}
-
 a{
     text-decoration: none;
     color:white;
@@ -30,8 +19,6 @@ h1, h2, h3, h4 {
     font-family: 'Montserrat', sans-serif;
 
 }
-/* Globales */
-
 
 p{
     font-weight: 400;
@@ -74,20 +61,21 @@ nav ul{
     list-style: none;
     
 }
-                                                                                /* Ver como funciona esto */
+
 nav ul li a {
     text-decoration: none;
     padding: 10px 15px;
-    transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease; /* Transition effects */
+    transition: color 0.5s ease, background-color 0.3s ease, transform 0.3s ease; /* Transition effects */
     padding: 0.4rem;
+    border-radius: 5px;
 }
 
 nav ul li a:hover {
-    color: #030303; /* Color on hover */
-    background-color: #00BFFF; /* Background color on hover */
-    transform: scale(1.1); /* Slightly enlarge the link on hover */
+    color: #030303;
+    background-color: #00BFFF; 
+
 }
-                                                                                /*Ver como funciona esto */
+
 
 main{
     color: #333333;
@@ -227,6 +215,6 @@ button:hover {
         font-weight: 500;
     }
 
-    }
+}
 
 

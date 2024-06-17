@@ -1,6 +1,3 @@
-*, *:before, *:after{
-    box-sizing: inherit;
-}
 
 body {
     font-family: 'open sans', sans-serif;
