@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="js/scriptReloj.js" defer ></script>
     <title>Pagina del Tecnico</title>
 </head>
 <body>
@@ -27,7 +28,12 @@
         </nav>
     </header>
     <main>
-        <h1>Bienvenido</h1>
+        <div class="contenedor">
+            <h1>Bienvenido</h1>
+            <div class="reloj" >
+                <div id="time"></div>
+            </div>
+        </div>
         <div class="contenedor_main">
             <aside class="contenedor_tabla">
                 <h3>Lista de solicitudes</h3>
@@ -117,9 +123,6 @@
                     <button type="submit">Enviar Detalles</button>
                 </form>
             </div>
-                
-            
-
         </div>
     </main>
 
